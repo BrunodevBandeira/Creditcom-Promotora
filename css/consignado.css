@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.services {
+    background: #12222d;
+    text-align: center;
+}
+
+.services-logo {
+    width: 18rem;
+}
+.heading-services {
+    color: #fff;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+
+.services li {
+    color: #fff;
+    font-size: 1.23rem;
+    padding: 0 10px;
+}
+
+.services .container {
+    width: 100%;
+
+    margin-top: 60px;
+}
+
+.services .container .serviceBx.box1 {
+    position: relative;
+    background: #fff;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.services .container .serviceBx.box1.efeito {
+    animation: move 2s ease-in-out;
+}
+
+
+@keyframes move {
+    0%   { left:100px; top:0px;}
+    /* 25%  {  left:200px; top:0px;} */
+    50%  { left:500px; top:0px;}
+    /* 75%  { left:400px; top:0px;} */
+    100% {left:1000px; top:0px;}
+}
+
+
+.services .container .serviceBx img{
+    max-width: 100px;
+}
+
+.services .container .serviceBx h2{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
