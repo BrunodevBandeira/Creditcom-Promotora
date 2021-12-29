@@ -3,14 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 /* =================> BANNER <======================= */
 .banner {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,7 +17,7 @@
 
 
 
-.banner video {
+.banner img {
     position: absolute;
     top: 0;
     left: 0;
@@ -88,6 +87,7 @@
 .about {
     position: relative;
     width: 100%;
+    height: 20rem;
     display: flex;
 }
 
@@ -97,13 +97,24 @@
     width: 50%;
 }
 
+.about .contentBx-left {
+    background: #162c3b;
+    padding: 100px;
+    width: 50%;
+}
+
 .imgBX  {
-    width: 100%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
     background: #162c3b;
+}
 
-    
+.imgBX-left  {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    background: #162c3b;
 }
 
 .heading {
@@ -121,6 +132,8 @@
     letter-spacing: 1px;
 }
 
+
+
 .about .imgBx {
     width: 50%;
     background-size: cover;
@@ -129,7 +142,7 @@
 
 .img-img {
     width: 100%;
-    height: 30rem;
+    height: 20rem;
 }
 
 /* =================> SERVICES <======================= */
