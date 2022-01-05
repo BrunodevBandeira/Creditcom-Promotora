@@ -149,9 +149,9 @@
 
 
 .services {
-    background: #12222d;
-    padding: 100px;
+    background: #162c3b;
     text-align: center;
+    width: 220vw;
 }
 
 .services-logo {
@@ -161,7 +161,7 @@
     color: #fff;
     font-size: 2.1rem;
     letter-spacing: 1px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .services li {
@@ -173,10 +173,6 @@
 .services .container {
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 60px;
 }
 
 .services .container .serviceBx {
@@ -187,7 +183,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 0.3rem;
     cursor: pointer;
 }
 
@@ -548,3 +544,23 @@
 }
 
 
+/* =================> JQUERY <======================= */
+
+
+.owl-carousel  {
+    background: #162c3b;
+    width: 100vw;
+    height: 13.5rem;
+}
+
+.owl-carousel img {
+    width: 100%;
+    overflow: auto;
+    padding: 10px;
+}
+
+.owl-carousel .item-logo {
+    width: 14.7rem;
+    margin-left: 20px
+
+}
