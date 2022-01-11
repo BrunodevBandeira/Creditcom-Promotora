@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="owl.carousel/owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="css/bens.css">
+    <link rel="stylesheet" href="lib/owl.carousel/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="css/consignado.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="shortcut icon" href="assets/logo-fundo.png" type="image/x-icon">
 
@@ -62,9 +62,42 @@ A alienação fiduciária é o processo em que você transfere a posse de um bem
         </div>
     </section>
 
-    <section class="about">
+    <div class="owl-carousel owl-theme">
+        <div class="item item-logo">
+            <a href="index.html" target="_blank">
+                <img src="assets/logo-fundo.png" alt="img" title="Página Principal"></img>
+            </a>
+        </div>
 
-    </section>
+        <div class="item item-carro">
+            <img  src="assets/car4.jpeg" alt="img" title=""></img>
+        </div>
+
+        <div class="item item-credito">
+            <img  src="assets/credito3.jpg" alt="img" title=""></img>
+        </div>
+
+        <div class="item item-seguros">
+            <img  src="assets/seguro4.jpg" alt="img" title=""></img>
+        </div>
+
+        <div class="item item-saude">
+            <img  src="assets/saude1.jpg" alt="img" title=""></img>
+        </div>
+
+        <div class="item item-fgts">
+            <img  src="assets/fgts1.jpg" alt="img" title=""></img>
+        </div>
+
+        <div class="item item-empresa">
+            <img  src="assets/empresa1.jpg" alt="img" title=""></img>
+        </div>
+
+        <div class="item item-bens3">
+            <img  src="assets/bens3.jpg" alt="img" title=""></img>
+        </div>
+</div>
+
 
     <div id="particles-js"></div>
 
@@ -84,9 +117,27 @@ A alienação fiduciária é o processo em que você transfere a posse de um bem
 
 
     <script src="jquery/jquery.min.js"></script>
-    <script src="owl.carousel/owl-carousel/owl.carousel.min.js"></script>
-
+    <script src="lib/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
     <script src="particulas/particles.js"></script>
     <script src="particulas/app.js"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            //margin:10,
+        //nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+	</script>
 </body>
 </html>

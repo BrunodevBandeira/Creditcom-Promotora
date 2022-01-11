@@ -547,4 +547,23 @@
     }
 }
 
+/* =================> JQUERY <======================= */
+
+
+.owl-carousel  {
+    background: #162c3b;
+    width: 100vw;
+    height: 13.5rem;
+}
+
+.owl-carousel img {
+    width: 100%;
+    overflow: auto;
+    padding: 10px;
+}
+
+.owl-carousel .item-logo {
+    width: 14.7rem;
+    margin-left: 20px
+}
 
