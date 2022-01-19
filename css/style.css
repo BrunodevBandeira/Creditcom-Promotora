@@ -254,7 +254,7 @@
 .testimonials {
     position: relative;
     padding: 100px;
-    background: #12222d;
+    background: #f8bf4e;
     text-align: center;
 }
 
@@ -451,6 +451,7 @@
 
     .about {
         flex-direction: column;
+        padding-bottom: 1rem;
     }
 
     .about .contentBx,
@@ -460,6 +461,8 @@
         min-height: 400px;
         text-align: center;
     }
+
+    section .contentBx
 
     .services {
         padding: 50px;
