@@ -92,13 +92,13 @@
 }
 
 .about .contentBx {
-    background: #162c3b;
+    background: #42955e;
     padding: 100px;
     width: 50%;
 }
 
 .about .contentBx-left {
-    background: #162c3b;
+    background: #42955e;
     padding: 100px;
     width: 50%;
 }
@@ -107,14 +107,14 @@
     width: 50%;
     height: 100%;
     object-fit: cover;
-    background: #162c3b;
+    background: #42955e;
 }
 
 .imgBX-left  {
     width: 50%;
     height: 100%;
     object-fit: cover;
-    background: #162c3b;
+    background: #42955e;
 }
 
 .heading {
@@ -149,7 +149,7 @@
 
 
 .services {
-    background: #162c3b;
+    background: #42955e;
     text-align: center;
     width: 220vw;
 }
@@ -238,7 +238,7 @@
 /* =================> client <======================= */
 
 .client {
-    background: #162c3b;
+    background: #42955e;
     padding: 100px;
     text-align: center;
 }
@@ -309,7 +309,7 @@
 
 .contact {
     padding: 100px;
-    background: #162c3b;
+    background: #42955e;
     text-align: center;
 }
 
@@ -383,7 +383,7 @@
 
 
 .footer {
-    background: #162c3b;
+    background: #42955e;
     padding: 20px 100px;
     display: flex;
     justify-content: space-between;
@@ -418,7 +418,7 @@
 
 #particles-js {
     height: 35vh;
-    background: #162c3b;
+    background: #42955e;
     z-index: 100;
     position: relative;
 }
@@ -548,7 +548,7 @@
 
 
 .owl-carousel  {
-    background: #162c3b;
+    background: #42955e;
     width: 100vw;
     height: 13.5rem;
 }
@@ -568,7 +568,7 @@
 .about-container {
     width: 100%;
     height: 4.5rem;
-    background-color: #162c3b;
+    background-color: #42955e;
     text-align: center;
 }
 
@@ -577,3 +577,4 @@
     color: #fff;
     font-size: 3rem;
 }
+
