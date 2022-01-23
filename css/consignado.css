@@ -87,29 +87,54 @@
 .about {
     position: relative;
     width: 100%;
-    height: 20rem;
-    display: flex;
 }
 
 .about .contentBx {
     background: #42955e;
-    padding: 100px;
+    text-align: center;
+    height: 12rem;
+}
+
+.about .contentBx h2{
+    position: relative;
+    top: 3rem;
+}
+
+.about .contentBx p{
+    position: relative;
+    top: 3rem;
 }
 
 .about .contentBx-left {
     background: #42955e;
-    padding: 100px;
+    text-align: center;
+    height: 16.5rem;
+}
+
+.about .contentBx-left h2{
+    position: relative;
+    top: 3rem;
+
+}
+
+.about .contentBx-left p{
+    position: relative;
+    top: 3rem;
+    text-align: center;
+}
+
+.img-respon {
+
 }
 
 .imgBX  {
-    width: 50%;
     height: 100%;
     object-fit: cover;
     background: #42955e;
 }
 
+
 .imgBX-left  {
-    width: 50%;
     height: 100%;
     object-fit: cover;
     background: #42955e;
@@ -133,7 +158,7 @@
 
 
 .about .imgBx {
-    width: 50%;
+    /* width: 50%; */
     background-size: cover;
     background-position: center;
 }
@@ -315,7 +340,7 @@
     background: url("../assets/img15.jpg");
     background-size:cover;
     background-position: center;
-    width: 50%;
+    /* width: 50%; */
 }
 
 .redbg {

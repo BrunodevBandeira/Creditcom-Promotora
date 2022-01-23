@@ -4,21 +4,31 @@
 @media (max-width: 375px) {
 
     .imgBX .img-img{
-        display: none;
+        
     }
 
     .imgBX-left .img-img{
-        display: none;
+        
     }
 
     .about {
-        padding:  5rem 0;
     }
     
     .about .contentBx {
+        text-align: center;
     }
     
     .about .contentBx-left {
+        width: 30rem;
+        text-align: center;
+        position: relative;
+        right: 2.9rem;
+    }
+
+    .text {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        text-align: center;
     }
     
 }
