@@ -1,55 +1,26 @@
-/*============> Responsividade index.html <============*/
-
-@media (max-width: 375px) {
-
-    .banner {
-        padding: 20px;
-    }
-
-    .banner header {
-        padding: 20px 50px;
-    }
-
-    .banner .content h1 {
-        font-size: 4.2rem;
-    }
-
-    .banner .content p {
-        font-size: 18px;
-    }
-
-    section .about .contentBx{
-        background: #42955e;
-    }
-
-    .contact {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    .contact .t-res{
-        background: #42955e;
-        position: relative;
-        left: 1.8rem;
-    }
-
-
-
-    .footer {
-    
-    }
-
-
-
-}
 
 /*============> Responsividade Outros arquivos.html <============*/
 
 @media (max-width: 375px) {
 
+    .imgBX .img-img{
+        display: none;
+    }
 
+    .imgBX-left .img-img{
+        display: none;
+    }
+
+    .about {
+        padding:  5rem 0;
+    }
+    
+    .about .contentBx {
+    }
+    
+    .about .contentBx-left {
+    }
+    
 }
 
 
