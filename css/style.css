@@ -413,8 +413,8 @@
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 40px;
-    right: 40px;
+    bottom: 65px;
+    right: 18px;
     background-color: #25d366;
     color: #fff;
     border-radius: 50px;
@@ -431,7 +431,7 @@
 
 /* =================> RESPONSIVIDADE <======================= */
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
 
     .banner {
         padding: 50px;
@@ -449,10 +449,10 @@
         font-size: 18px;
     }
 
-    .about {
-        flex-direction: column;
-        padding-bottom: 1rem;
-    }
+    //.about {
+      //  flex-direction: column;
+      //  padding-bottom: 1rem;     
+    //}
 
     .about .contentBx,
     .about .imgBx {
@@ -532,4 +532,4 @@
 
 .imgBx .bancos:hover {
     color:#f8bf4e;
-}
+} */
