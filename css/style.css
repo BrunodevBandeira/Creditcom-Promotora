@@ -35,17 +35,16 @@
 
 .banner .content h1{
     color: #42955e;
-    font-size: 4.8rem; 
+    font-size: 7rem; 
 }
 
 .banner .content h1:hover{
     color: #f8bf4e;
-    font-size: 4.8rem;
 }
 
 .banner .content p{
     color: #fff;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .banner .content p:hover{
@@ -93,7 +92,7 @@
 
 .about .contentBx {
     background: #42955e;
-    padding: 100px;
+    padding: 55px;
     width: 50%;
 }
 
@@ -104,13 +103,11 @@
     height: 100%;
     object-fit: cover;
     background: #42955e;
-
-    
 }
 
 .heading {
     color: #fff;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 10px;
@@ -118,7 +115,7 @@
 
 .text {
     color: #fff;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 300;
     letter-spacing: 1px;
 }
@@ -131,7 +128,7 @@
 
 .img-img {
     width: 100%;
-    height: 30rem;
+    height: 45rem;
 }
 
 /* =================> SERVICES <======================= */
@@ -144,11 +141,12 @@
 }
 
 .services-logo {
-    width: 18rem;
+    width: 20rem;
 }
+
 .heading-services {
     color: #fff;
-    font-size: 2.1rem;
+    font-size: 2.5rem;
     letter-spacing: 1px;
     margin-top: 10px;
 }
@@ -171,8 +169,8 @@
 .services .container .serviceBx {
     position: relative;
     background: #fff;
-    width: 300px;
-    height: 300px;
+    width: 18rem;
+    height: 18rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,12 +179,12 @@
 }
 
 .services .container .serviceBx img{
-    max-width: 100px;
+    max-width: 6rem;
 }
 
 .services .container .serviceBx h2{
     font-weight: 500;
-    font-size: 20px;
+    font-size: rem;
     letter-spacing: 1px;
 }
 
@@ -199,8 +197,8 @@
     padding-top: 300px;
     margin-top: -300px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -226,7 +224,7 @@
     text-align: center;
 }
 .bancos {
-    font-size: 5rem;
+    font-size: 8rem;
     color: #fff;
 }
 .client .imgBx {
@@ -260,10 +258,11 @@
 
 .testimonials .container{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-top: 40px;
     flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
 
 }
 
@@ -322,8 +321,8 @@
     box-shadow: none;
     border: none;
     outline: none;
-    padding: 10px 0;
-    font-size: 18px;
+    padding: 20px 0;
+    font-size: 1.4rem;
     font-weight: 300;
     color: #fff;
     border-bottom: 2px solid #fff;
@@ -341,7 +340,7 @@
     border: none;
     outline: none;
     padding: 10px 0;
-    font-size: 18px;
+    font-size: 1.4rem;
     font-weight: 300;
     min-height: 100px;
     color: #fff;
@@ -353,14 +352,11 @@
 }
 
 .form .inputBx input[type="submit"] {
-    width: 150px;
+    width: 120px;
     background: #fff;
     color: #111;
 }
 
-.redes {
-    width: 5rem;
-}
 
 /* =================> FOOTER <======================= */
 
@@ -371,7 +367,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+}
+
+.text-footer {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 
@@ -393,14 +395,13 @@
 
 .footer ul li a img{
     filter: invert(1);
-    max-width: 20px;
-    
+    width: 2.3rem;
 }
 
 /* =================> particles-js <======================= */
 
 #particles-js {
-    height: 35vh;
+    height: 30vh;
     background: #42955e;
     z-index: 100;
     position: relative;
@@ -411,21 +412,21 @@
 
 .whatsapp-link {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 65px;
-    right: 18px;
+    width: 100px;
+    height: 100px;
+    bottom: 60px;
+    right: 20px;
     background-color: #25d366;
     color: #fff;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
+    font-size: 55px;
     box-shadow: 1px 1px 2px #888;
     z-index: 1000;
 }  
 
 .fa-whatsapp{
-        margin-top: 16px;
+        margin-top: 24px;
 }
 
 

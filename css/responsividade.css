@@ -35,19 +35,50 @@
         left: 1.8rem;
     }
 
-
-
-    .footer {
-    
+    .footer .text-footer{
+        display: none;
     }
-
-
 
 }
 
 /*============> Responsividade Outros arquivos.html <============*/
 
-@media (max-width: 375px) {
+@media (max-width: 1204px) {
+    .about {
+        height: 100vh;
+    }
+    
+    .imgBX .img-img{
+    }
+    .contentBx-left {
+        margin-bottom: 8rem;
+    }
+    
+    .contentBx-left .heading{
+        font-size: 2.5rem;
+    }
+
+    .contentBx-left .text{
+        font-size: 1.51rem;
+    }
+
+    .footer .text{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1440px) {
+
+
+}
+
+@media (max-width: 1680px) {
+
+
+}
+
+@media (max-width: 1920px) {
 
 
 }
