@@ -17,9 +17,14 @@
     .banner .content p {
         font-size: 18px;
     }
-
+    
     section .about .contentBx{
         background: #42955e;
+        overflow-wrap: break-word;
+    }
+
+    section .img-respon .imgBX {
+        margin: 10rem 0;
     }
 
     .contact {
@@ -39,9 +44,25 @@
         display: none;
     }
 
+    
 }
 
 /*============> Responsividade Outros arquivos.html <============*/
+
+@media (max-width: 375px) {
+    
+    .footer .text{
+        display: none;
+    }
+
+    .imgBX .img-img {
+        display: none;
+    }
+
+    .imgBX-left .img-img {
+        display: none;
+    }
+}
 
 @media (max-width: 1204px) {
     .about {
@@ -50,8 +71,17 @@
     
     .imgBX .img-img{
     }
+
+    .contentBx .heading{
+        margin-bottom: 5rem;
+    }
+
+    .contentBx .text{
+        margin-top: 5rem;
+    }
+
     .contentBx-left {
-        margin-bottom: 8rem;
+        margin: 5rem;
     }
     
     .contentBx-left .heading{
@@ -61,11 +91,10 @@
     .contentBx-left .text{
         font-size: 1.51rem;
     }
-
+    
     .footer .text{
         display: none;
     }
-
 }
 
 @media (max-width: 1440px) {

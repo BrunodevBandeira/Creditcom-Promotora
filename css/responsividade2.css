@@ -4,11 +4,12 @@
 @media (max-width: 375px) {
 
     .imgBX .img-img{
+        display: none;
         
     }
 
     .imgBX-left .img-img{
-        
+        display: none;
     }
 
     .about {
@@ -16,6 +17,20 @@
     
     .about .contentBx {
         text-align: center;
+        overflow-wrap: break-word;
+        height: 35rem;
+    }
+
+    .about .contentBx .heading{
+        text-align: center;
+        overflow-wrap: break-word;
+    }
+
+    .about .contentBx .text {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        text-align: center;
+        border-top: 5rem;
     }
     
     .about .contentBx-left {
@@ -25,10 +40,12 @@
         right: 2.9rem;
     }
 
-    .text {
-        font-size: 1rem;
-        letter-spacing: 1px;
-        text-align: center;
+    .texto-c {
+
+    }
+
+    .footer .text{
+        display: none;
     }
     
 }
